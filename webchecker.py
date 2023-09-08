@@ -21,7 +21,7 @@ class TextScrapper:
     def find_target_text(self, base_url, target_text, num_parallel_searches=61400):
         error_count = 0
 
-        with open(r"    **your file destination and name here**    ", "w") as file:  # Open file for writing results
+        with open(r"nova.txt", "w") as file:  # Open file for writing results
             for _ in range(num_parallel_searches):
                 page_number = randint( 1, 36893488147419104)
 
